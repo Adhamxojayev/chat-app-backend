@@ -1,0 +1,34 @@
+[
+    {
+        "user_id": 2,
+        "username": "hacker_pro",
+        "password": 1111,
+        "age": 15,
+        "gender": 1,
+        "contact": "998941025689"
+    },
+    {
+        "username": "ali",
+        "password": 2020,
+        "age": 25,
+        "gender": 1,
+        "contact": "998974025689",
+        "user_id": 3
+    },
+    {
+        "username": "nozim",
+        "password": 5693,
+        "age": 20,
+        "gender": 1,
+        "contact": "998971023656",
+        "user_id": 4
+    },
+    {
+        "user_id": 5,
+        "contact": "99833732328",
+        "gender": "1",
+        "age": "22",
+        "username": "Ahror",
+        "password": "111133"
+    }
+]
