@@ -29,8 +29,9 @@ const REGISTER = (req,res) => {
                 JSON.stringify({
                     status: 201,
                     message: "The user has saccessfully registred",
-                    token: jwt.sign({userId: user_id, username}),
+                    token: jwt.sign({userId: user_id}),
                     user_id,
+                    username
                 })
             )
             return res.end()
@@ -52,8 +53,9 @@ const LOGIN = (req,res) => {
                 JSON.stringify({
                     status: 200,
                     message: "The user has seccessfully logged in!",
-                    token: jwt.sign({userId: user.user_id, username}),
-                    user_id:user.user_id
+                    token: jwt.sign({userId: user.user_id}),
+                    user_id:user.user_id,
+                    username
                 })
             )
             return res.end()

@@ -8,7 +8,6 @@ const postTodo = (req,res) => {
         if (!req.headers.token) throw "The token required";
         let payload = jwt.verify(req.headers.token);
         let { userId } = payload;
-        console.log(payload);
         req.on("data", (chunk) => (data += chunk));
         req.on("end", () => {
           let todos = fs.readFileSync(
@@ -20,7 +19,8 @@ const postTodo = (req,res) => {
               user_id: userId,
               todo_text: data.todo_text,
               todo_id: todos.length ? todos[todos.length-1].todo_id +1 : 1,
-              todo_time: data.todo_time
+              todo_time: data.todo_time,
+              username : data.username
              }
           todos.push(obj)
           fs.writeFileSync(

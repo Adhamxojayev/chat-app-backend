@@ -3,66 +3,35 @@
         "todo_id": 1,
         "todo_text": "hello world!",
         "todo_time": "20:30",
-        "user_id": 2
+        "user_id": 2,
+        "username": "hacker_pro"
     },
     {
         "user_id": 5,
         "todo_text": "salom",
         "todo_id": 2,
-        "todo_time": "22:50"
+        "todo_time": "15:00",
+        "username": "Ahror"
     },
     {
         "user_id": 5,
         "todo_text": "qalesan",
         "todo_id": 3,
-        "todo_time": "10:30"
+        "todo_time": "16:14",
+        "username": "Ahror"
     },
     {
         "user_id": 2,
-        "todo_text": "yaxshi rahmat",
+        "todo_text": "Assalomu alaykum",
         "todo_id": 4,
-        "todo_time": "10:32"
+        "todo_time": "17:19",
+        "username": "hacker_pro"
     },
     {
         "user_id": 5,
-        "todo_text": "salom",
-        "todo_id": 6,
-        "todo_time": "10:32"
-    },
-    {
-        "user_id": 5,
-        "todo_text": "yaxshi",
-        "todo_id": 7,
-        "todo_time": "10:32"
-    },
-    {
-        "user_id": 2,
-        "todo_text": "kino korish",
-        "todo_id": 9,
-        "todo_time": "10:33"
-    },
-    {
-        "user_id": 3,
-        "todo_text": "dars qilish",
-        "todo_id": 10,
-        "todo_time": "10:34"
-    },
-    {
-        "user_id": 2,
-        "todo_text": "salom",
-        "todo_id": 11,
-        "todo_time": "14:57"
-    },
-    {
-        "user_id": 5,
-        "todo_text": "qalesan",
-        "todo_id": 12,
-        "todo_time": "15:07"
-    },
-    {
-        "user_id": 5,
-        "todo_text": "salom",
-        "todo_id": 13,
-        "todo_time": "15:14"
+        "todo_text": "Va alaykum assalom",
+        "todo_id": 5,
+        "todo_time": "17:20",
+        "username": "Ahror"
     }
 ]
