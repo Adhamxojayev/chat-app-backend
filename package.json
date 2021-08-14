@@ -2,7 +2,7 @@
   "name": "homework-12",
   "version": "1.0.0",
   "description": "",
-  "type":"module",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon src/server.js",
@@ -10,5 +10,8 @@
   },
   "keywords": [],
   "author": "Ahror",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
 }
