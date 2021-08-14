@@ -28,7 +28,7 @@ const server = http.createServer((req,res) => {
 })
 
  
-server.listen(PORT, () => console.log('Server is running http://'+ host + ':' + PORT))
+server.listen(PORT, () => console.log('Server is running ', host + ':' + PORT))
 
 
 
