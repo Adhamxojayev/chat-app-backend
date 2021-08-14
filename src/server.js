@@ -11,7 +11,7 @@ import { updateTodo } from './modules/updateTodo.js';
 
 
 const server = http.createServer((req,res) => {
-    res.setHeader('Access-Control-Allow-Origin','*');
+    res.setHeader('Access-Control-Allow-Origin','https://chat-client-ap.herokuapp.com');
     res.setHeader('Access-Control-Allow-Credentials', 'true')
     res.setHeader('Access-Control-Allow-Headers', 'Origin, Accept, Content-Type, Access-Control-Allow-Origin');
     res.setHeader('Access-Control-Allow-Methods', 'GET,POST, DELETE, PUT');
